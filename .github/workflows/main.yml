@@ -12,6 +12,14 @@ jobs:
       steps:
        - name: print a welcome massage
          run: echo "welcome to our fisrt gihupaction workflow"
+
+       - name: Checkout
+         uses: actions/checkout@v6.0.2
+
+       - name: display
+         run: ls -la
+       
+       
        
         
 
