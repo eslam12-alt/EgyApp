@@ -11,7 +11,7 @@ jobs:
 
       steps:
        - name: print a welcome massage
-         run: echo"welcome to our fisrt gihupaction workflow"
+         run: echo "welcome to our fisrt gihupaction workflow"
        
         
 
