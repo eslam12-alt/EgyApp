@@ -3,7 +3,7 @@ function great(name) {
 
 }
 
-model.exports = great;
+module.exports = great;
 
 if (require.main === module) {
 
